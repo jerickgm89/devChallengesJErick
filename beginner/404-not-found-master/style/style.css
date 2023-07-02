@@ -1,37 +1,57 @@
 html {
-    font-family: space-mono, monospace;
+    font-family: space, monospace;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
 }
 
+h1 {
+    font-family: inconsolata, monospace;
+    font-size: 1em;
+    padding: 1em 5em;
+}
+
 .grid {
     display: grid;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 50% 50%;
+    padding: 5em;
 }
 .image{
-    text-align: center;
-    top: 265px;
-    left: 77px;
+    margin: auto;
+    padding: 3em;
 }
+
 img{
-    width: 540px;
+    width: 90%;
 }
 
 div.content {
-    text-align: left;
+    text-align: justify;
+    margin: auto;
+    color: #333333;
+    padding: 0 5em;
 }
 
 .content .title {
-    color: #333333;
     font-weight: 700;
     font-size: 64px;
     line-height: 94.78px;
 }
 
 .content .text{
-    color: #333333;
     font-weight: 400;
     font-size: 24px;
     line-height: 35.54px;
+}
+
+button {
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
