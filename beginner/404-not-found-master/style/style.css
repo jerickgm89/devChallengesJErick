@@ -8,8 +8,7 @@
 }
 
 html {
-    font-family: space, monospace;
-
+    font-family: space, space-mono, monospace;
 }
 
 body{
@@ -30,20 +29,15 @@ h1 {
     padding: 5em;
 }
 
-.logo{
-    margin: auto;
-    padding: 3em;
-}
-
-img{
+.logo > img{
     width: 100%;
+    height: auto;    
 }
 
 div.content {
-    text-align: justify;
+    text-align: left;
     margin: auto;
     color: #333333;
-    padding: 0 5em;
     letter-spacing: -3.5%;
 }
 
@@ -59,7 +53,7 @@ div.content {
     font-size: 24px;
     line-height: 35.54px;
     margin-bottom: 2em;
-    width: 60%;
+    width: 70%;
 }
 
 button {
@@ -97,12 +91,10 @@ footer {
         grid-template-columns: 100%;
     }
 
-    img{
-        width: 100%;
-    }
+
 
     div.content{
-        text-align: left;
+        text-align: center;
     }
 
     .title {
@@ -126,16 +118,17 @@ footer {
     
 }
 
-@media screen and (min-width: 375px) {
+@media screen and ( min-width: 270px) and (max-width: 767px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     .grid {
         grid-template-columns: 100%;
+        padding: 2em;;
     }
 
-    img{
-        width: 100%;
+    .logo > img{
+        height: 100%;        
     }
 
     div.content{
@@ -144,7 +137,7 @@ footer {
 
     .title {
         font-weight: 700;
-        font-size: 48px;
+        font-size: 40px;
         line-height: 71px;
         margin-bottom: 1em;
     }
