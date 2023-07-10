@@ -1,3 +1,7 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line",
+    "editor.find.addExtraSpaceOnTop": true,
+    "workbench.preferredDarkColorTheme": "One Dark Pro Flat"
 }
