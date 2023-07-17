@@ -13,21 +13,38 @@
     <title>Modern Interior</title>
   </head>
   <body>
-    <header class="container-header">
+    <header class="containerHeader">   
 
-      <div class="logo-header">
-        <p>THIS INTERIOR</p>
-      </div>
+      <nav class="nav containerNav" id="nav">
+        <h2 class="logoNav">
+          THIS INTERIOR
+        </h2>
+        <ul class="navlink">
+            <li class="itemNav">
+              <a href="#" class="active navLinkBar">Home</a>
+            </li>
+            <li class="itemNav">
+              <a href="#" class="navLinkBar">Collection</a>
+            </li>
+            <li class="itemNav">
+              <a href="#" class="navLinkBar">About</a>
+            </li>
+            <li class="itemNav">
+              <a href="#" class="navLinkBar">Contact</a>
+            </li>
+        </ul>
 
-      <nav>
-        <div class="navbar-header">
-          <ul class="link-nav">
-            <li class="links"><a href="#" class="active">Home</a></li>
-            <li class="links"><a href="#">Collection</a></li>
-            <li class="links"><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
+        <a href="#nav" class="hamburguerLogo">
+          <span class="material-icons navIcons">
+            menu
+          </span>
+        </a>
+        <a href="#" class="hamburguerClose">
+          <span class="material-icons navIcons">
+            close
+          </span>
+        </a>
+        
       </nav>
 
     </header>
@@ -36,34 +53,42 @@
     <main class="container-main">
 
       <aside class="content-aside">
-          <p class="title-aside">Modern interior</p>
+        <div>
+          <h2 class="title-aside">Modern interior</h2>
           <p class="description-aside">
           A full-Service residential & commercial interior design and staging
-          company offering professional organizing & eco-services.
+          company offering professional organizing & <br>eco-services.
           </p>
           <p class="read-more">
             Read more
             <span class="material-icons">trending_flat</span>
           </p>    
+        </div>
+          
       </aside>
 
       <section>
-        <article>
+        <article class="content-article">
 
           <div class="image-modern">
             <img src="img/photo1.png" alt="image-modern" />
           </div>
 
           <div class="card">
-            <article class="card-article">
-              <header>
+            <article>
+
+              <header class="card-header">
                 <img src="img/photo2.png" alt="professional" />
-                <p class="name">Aliza Webber</p>
-                <p class="profesion">Interior designer</p>
+                <div class="username">
+                  <p class="name">Aliza Webber</p>
+                  <p class="profesion">Interior designer</p>
+                </div>
               </header>
+
               <div class="content-card">
                 <p>Designer in 2020 by Aliza Webber</p>
               </div>
+              
             </article>
           </div>
 
